@@ -1,12 +1,86 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import BlogCard from "@/components/BlogCard";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
+import { getFeaturedPosts } from "@/data/blogPosts";
 
 const Index = () => {
+  const featuredPosts = getFeaturedPosts(3);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Header />
+      <Hero />
+      
+      {/* Featured Posts Section */}
+      <section className="container mx-auto px-4 py-16">
+        <div className="text-center mb-12">
+          <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-4">
+            Latest Adventures
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            Discover our newest travel tips and hidden gems across the Netherlands
+          </p>
+        </div>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          {featuredPosts.map(post => (
+            <BlogCard key={post.id} post={post} />
+          ))}
+        </div>
+        
+        <div className="text-center">
+          <Button asChild size="lg" className="shadow-medium">
+            <Link to="/blog">
+              View All Posts
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </Link>
+          </Button>
+        </div>
+      </section>
+
+      {/* Categories Section */}
+      <section className="bg-muted py-16">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-gradient-card rounded-lg p-8 shadow-soft hover:shadow-medium transition-all duration-300">
+              <div className="text-4xl mb-4">🎒</div>
+              <h3 className="font-heading text-2xl font-bold text-foreground mb-4">
+                Travel Tips
+              </h3>
+              <p className="text-muted-foreground mb-6">
+                Smart strategies, budget advice, and insider tips to make your Dutch adventure 
+                unforgettable and affordable.
+              </p>
+              <Button asChild variant="outline">
+                <Link to="/category/travel-tips">
+                  Explore Tips
+                  <ArrowRight className="ml-2 w-4 h-4" />
+                </Link>
+              </Button>
+            </div>
+            
+            <div className="bg-gradient-card rounded-lg p-8 shadow-soft hover:shadow-medium transition-all duration-300">
+              <div className="text-4xl mb-4">🌷</div>
+              <h3 className="font-heading text-2xl font-bold text-foreground mb-4">
+                Discovering Netherlands
+              </h3>
+              <p className="text-muted-foreground mb-6">
+                Hidden gems, local secrets, and authentic experiences across the beautiful 
+                Netherlands that locals don't want you to miss.
+              </p>
+              <Button asChild variant="outline">
+                <Link to="/category/discovering-netherlands">
+                  Discover More
+                  <ArrowRight className="ml-2 w-4 h-4" />
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
