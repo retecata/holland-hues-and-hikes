@@ -26,7 +26,10 @@ export const blogPosts: BlogPost[] = [
       <h2>Must-Visit Attractions</h2>
       <p>The Grote Markt (Great Market Square) is the heart of Haarlem, dominated by the impressive St. Bavo Church. This Gothic church houses one of the world's most famous organs, played by both Mozart and Handel.</p>
       
-      <p>From the Grote Markt, take a pleasant walk to the St. Bavo Cathedral - despite the similar name, this is a completely different and equally stunning building. Here's where the real adventure begins: purchase a ticket to climb the cathedral towers for breathtaking panoramic views over Haarlem's historic rooftops and surrounding countryside. It's an incredible photo opportunity that captures the essence of this charming Dutch city from above.</p>
+      
+      <p>From the Grote Markt, take a pleasant walk to the St. Bavo Cathedral - despite the similar name, this is a completely different and equally stunning building. Along the way, stop at Willy's Vis, a tiny local food shop that serves some of the best kibbeling you'll ever taste. Kibbeling is a beloved Dutch snack of bite-sized pieces of white fish, lightly battered and fried to golden perfection, typically served with a tangy garlic or tartar sauce - it's comfort food at its finest and a true local favorite.</p>
+      
+      <p>Once you reach St. Bavo Cathedral, purchase a ticket to climb the cathedral towers for breathtaking panoramic views over Haarlem's historic rooftops and surrounding countryside. It's an incredible photo opportunity that captures the essence of this charming Dutch city from above.</p>
       
       <h2>Museums and Culture</h2>
       <p>Visit the Frans Hals Museum to see masterpieces by the Golden Age painter, or explore the Teylers Museum, the oldest museum in the Netherlands. The Corrie ten Boom House offers a moving glimpse into WWII history.</p>
