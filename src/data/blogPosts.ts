@@ -21,36 +21,37 @@ export const blogPosts: BlogPost[] = [
     title: "What to do in Haarlem",
     excerpt: "Discover the charming historic city of Haarlem, just 20 minutes from Amsterdam, with its stunning architecture, museums, and local culture.",
     content: `
-      <p>Haarlem is a picturesque Dutch city that offers all the charm of Amsterdam without the crowds. This historic city, just a short train ride from the capital, is perfect for a day trip or weekend getaway.</p>
+      <p>Haarlem is a picturesque Dutch city just 20 minutes from Amsterdam. Perfect for a day trip with all the charm but none of the crowds.</p>
       
       <h2>Must-Visit Attractions</h2>
-      <p>The Grote Markt (Great Market Square) is the heart of Haarlem, dominated by the impressive St. Bavo Church. This Gothic church houses one of the world's most famous organs, played by both Mozart and Handel.</p>
+      <p><strong>Grote Markt & St. Bavo Church:</strong> The heart of Haarlem featuring a Gothic church with a world-famous organ played by Mozart and Handel.</p>
       
+      <p><strong>Walking Route:</strong> From Grote Markt, walk to St. Bavo Cathedral (different location, same name). Stop at <em>Willy's Vis</em> for authentic Dutch kibbeling - crispy fried fish bites with garlic sauce.</p>
       
-      <p>From the Grote Markt, take a pleasant walk to the St. Bavo Cathedral - despite the similar name, this is a completely different and equally stunning building. Along the way, stop at Willy's Vis, a tiny local food shop that serves some of the best kibbeling you'll ever taste. Kibbeling is a beloved Dutch snack of bite-sized pieces of white fish, lightly battered and fried to golden perfection, typically served with a tangy garlic or tartar sauce - it's comfort food at its finest and a true local favorite.</p>
+      <p><strong>Cathedral Tower Climb:</strong> Buy a ticket for panoramic views and incredible photos of Haarlem's rooftops.</p>
       
-      <p>Once you reach St. Bavo Cathedral, purchase a ticket to climb the cathedral towers for breathtaking panoramic views over Haarlem's historic rooftops and surrounding countryside. It's an incredible photo opportunity that captures the essence of this charming Dutch city from above.</p>
-      
-      <h2>Museums and Culture</h2>
-      <p>Visit the Frans Hals Museum to see masterpieces by the Golden Age painter, or explore the Teylers Museum, the oldest museum in the Netherlands. The Corrie ten Boom House offers a moving glimpse into WWII history.</p>
-      
-      
-      <h2>Food Recommendations</h2>
-      <p>Haarlem offers fantastic dining experiences that showcase both traditional Dutch cuisine and modern culinary innovation. For a truly unique experience, visit Jopen Kerk, a craft brewery housed in a beautifully repurposed church. Here you can sample exceptional local beers in a stunning historic setting - the combination of craft brewing and sacred architecture creates an unforgettable atmosphere that perfectly captures Haarlem's blend of tradition and innovation.</p>
-      
-      <p>For a special occasion, treat yourself to Ratatouille, a Michelin-starred restaurant that playfully embraces its namesake with a charming chef mouse logo. This intimate dining destination offers an extraordinary culinary journey with creative, expertly crafted dishes that make it perfect for celebrating birthdays or romantic evenings. The experience goes beyond just exceptional food - it's a memorable adventure that combines fine dining with a touch of whimsy.</p>
-      
-      <h2>Best Things to Do</h2>
+      <h2>Museums & Culture</h2>
       <ul>
-        <li>Stroll through the historic city center and admire the medieval architecture</li>
-        <li>Shop at the Saturday market on Grote Markt square</li>
-        <li>Take a canal boat tour to see the city from the water</li>
-        <li>Visit local cafes and try Haarlem's craft beer scene</li>
-        <li>Explore the Haarlemmerhout, one of the oldest public parks in the Netherlands</li>
+        <li><strong>Frans Hals Museum</strong> - Golden Age masterpieces</li>
+        <li><strong>Teylers Museum</strong> - Netherlands' oldest museum</li>
+        <li><strong>Corrie ten Boom House</strong> - Moving WWII history</li>
+      </ul>
+      
+      <h2>Food & Drinks</h2>
+      <p><strong>Jopen Kerk:</strong> Craft brewery in a repurposed church - unique atmosphere with exceptional local beers.</p>
+      
+      <p><strong>Ratatouille:</strong> Michelin-starred restaurant with a playful chef mouse logo. Perfect for special occasions.</p>
+      
+      <h2>Activities</h2>
+      <ul>
+        <li>Explore medieval architecture in the historic center</li>
+        <li>Shop at Saturday market on Grote Markt</li>
+        <li>Take a canal boat tour</li>
+        <li>Walk through Haarlemmerhout (oldest public park in Netherlands)</li>
       </ul>
       
       <h2>Getting There</h2>
-      <p>Haarlem is easily accessible by train from Amsterdam Central Station in just 15-20 minutes. The historic city center is compact and perfect for walking or cycling.</p>
+      <p>Train from Amsterdam Central: 15-20 minutes. The compact city center is perfect for walking or cycling.</p>
     `,
     image: amsterdamCanal,
     category: "discovering-netherlands",
