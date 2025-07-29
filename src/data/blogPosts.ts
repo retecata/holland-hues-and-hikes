@@ -18,32 +18,34 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     id: "1",
-    title: "Ultimate Guide to Amsterdam's Hidden Canals",
-    excerpt: "Discover the secret waterways and hidden gems that most tourists never see in Amsterdam's enchanting canal district.",
+    title: "What to do in Haarlem",
+    excerpt: "Discover the charming historic city of Haarlem, just 20 minutes from Amsterdam, with its stunning architecture, museums, and local culture.",
     content: `
-      <p>Amsterdam's canal ring is a UNESCO World Heritage site, but beyond the famous tourist routes lie hidden waterways that offer a more authentic glimpse into Dutch life.</p>
+      <p>Haarlem is a picturesque Dutch city that offers all the charm of Amsterdam without the crowds. This historic city, just a short train ride from the capital, is perfect for a day trip or weekend getaway.</p>
       
-      <h2>The Secret Canals</h2>
-      <p>While everyone knows about the Prinsengracht and Herengracht, the smaller canals like Bloemgracht and Egelantiersgracht offer equally stunning views with fewer crowds. These waterways are lined with authentic Dutch houses and local cafes.</p>
+      <h2>Must-Visit Attractions</h2>
+      <p>The Grote Markt (Great Market Square) is the heart of Haarlem, dominated by the impressive St. Bavo Church. This Gothic church houses one of the world's most famous organs, played by both Mozart and Handel.</p>
       
-      <h2>Best Times to Visit</h2>
-      <p>Early morning (before 9 AM) or late afternoon (after 5 PM) provide the best lighting and fewer tourists. The golden hour creates magical reflections on the water.</p>
+      <h2>Museums and Culture</h2>
+      <p>Visit the Frans Hals Museum to see masterpieces by the Golden Age painter, or explore the Teylers Museum, the oldest museum in the Netherlands. The Corrie ten Boom House offers a moving glimpse into WWII history.</p>
       
-      <h2>Hidden Spots to Explore</h2>
+      <h2>Best Things to Do</h2>
       <ul>
-        <li>Reguliersgracht - Known as the "canal of seven bridges"</li>
-        <li>Brouwersgracht - Often called Amsterdam's most beautiful canal</li>
-        <li>Karthuizersstraat - A quiet neighborhood canal with authentic atmosphere</li>
+        <li>Stroll through the historic city center and admire the medieval architecture</li>
+        <li>Shop at the Saturday market on Grote Markt square</li>
+        <li>Take a canal boat tour to see the city from the water</li>
+        <li>Visit local cafes and try Haarlem's craft beer scene</li>
+        <li>Explore the Haarlemmerhout, one of the oldest public parks in the Netherlands</li>
       </ul>
       
-      <h2>Photography Tips</h2>
-      <p>Use the bridges as natural frames for your shots. The reflections are best captured during the blue hour when street lights begin to twinkle on the water.</p>
+      <h2>Getting There</h2>
+      <p>Haarlem is easily accessible by train from Amsterdam Central Station in just 15-20 minutes. The historic city center is compact and perfect for walking or cycling.</p>
     `,
     image: amsterdamCanal,
     category: "discovering-netherlands",
     date: "2024-01-15",
     readTime: "5 min read",
-    slug: "amsterdam-hidden-canals-guide",
+    slug: "what-to-do-in-haarlem",
     author: "Travel Explorer"
   },
   {
