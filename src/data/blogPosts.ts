@@ -38,6 +38,8 @@ export const blogPosts: BlogPost[] = [
       <h2>Food Recommendations</h2>
       <p>Haarlem offers fantastic dining experiences that showcase both traditional Dutch cuisine and modern culinary innovation. For a truly unique experience, visit Jopen Kerk, a craft brewery housed in a beautifully repurposed church. Here you can sample exceptional local beers in a stunning historic setting - the combination of craft brewing and sacred architecture creates an unforgettable atmosphere that perfectly captures Haarlem's blend of tradition and innovation.</p>
       
+      <p>For a special occasion, treat yourself to Ratatouille, a Michelin-starred restaurant that playfully embraces its namesake with a charming chef mouse logo. This intimate dining destination offers an extraordinary culinary journey with creative, expertly crafted dishes that make it perfect for celebrating birthdays or romantic evenings. The experience goes beyond just exceptional food - it's a memorable adventure that combines fine dining with a touch of whimsy.</p>
+      
       <h2>Best Things to Do</h2>
       <ul>
         <li>Stroll through the historic city center and admire the medieval architecture</li>
