@@ -1,6 +1,7 @@
 import amsterdamCanal from "@/assets/amsterdam-canal.jpg";
 import keukenhofTulips from "@/assets/keukenhof-tulips.jpg";
 import dutchCountryside from "@/assets/dutch-countryside.jpg";
+import dutchLakeSwimming from "@/assets/dutch-lake-swimming.png";
 
 export interface BlogPost {
   id: string;
@@ -125,7 +126,7 @@ export const blogPosts: BlogPost[] = [
       
       <p>Swimming in Dutch lakes is a simple and refreshing way to enjoy summer. Whether you're looking for a relaxing solo dip or a fun outing with friends, there's a lake for every vibe. So grab your towel, hop on your bike, and dive in—Dutch summer style!</p>
     `,
-    image: dutchCountryside,
+    image: dutchLakeSwimming,
     category: "travel-tips",
     date: "2024-01-12",
     readTime: "6 min read",
