@@ -137,35 +137,75 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: "3",
-    title: "Keukenhof Gardens: Beyond the Touristy Spots",
+    title:
+      "How to See the Tulips in the Netherlands: My Keukenhof Experience (and a Few Local Tips)",
     excerpt:
-      "Experience Keukenhof Gardens like a local with insider tips for the best routes, timing, and hidden photo spots.",
+      "Planning to see the iconic Dutch tulips? Here’s what I learned from my Keukenhof adventure, plus tips for exploring the fields like a local.",
     content: `
-      <p>Keukenhof is world-famous for its tulip displays, but most visitors follow the same crowded routes. Here's how to experience it differently.</p>
+      <p>A few years ago, I went with my boyfriend to see the tulips in the Netherlands, and it turned out to be one of the most beautiful—and surprisingly educational—day trips we’ve ever taken. If you're planning to see the iconic Dutch tulips, here's what I learned from that experience.</p>
       
-      <h2>Timing Your Visit</h2>
-      <p>Visit early morning (8-9 AM) or late afternoon (after 4 PM) for the best experience. Mid-April to early May is peak season, but late March offers beautiful early blooms with fewer crowds.</p>
+      <h2>First Things First: Where to See the Tulips?</h2>
+      <p>There are many ways to enjoy tulip season in the Netherlands. You’ll often see tulips growing in vast open fields, especially in regions like Lisse or around Noordwijkerhout. But if you're looking for the most iconic and curated experience, <a href="https://keukenhof.nl/nl/" target="_blank" rel="noopener">Keukenhof Gardens</a> is the place to go.</p>
+      <p>Keukenhof is a massive flower park showcasing over 7 million bulbs every spring—think of it as the Disneyland of tulips, with every color and variety imaginable. It’s beautiful, photo-ready, and perfect for first-time visitors.</p>
       
-      <h2>The Secret Routes</h2>
-      <p>Skip the main pavilions initially and head straight to the outer gardens. The English Landscape Garden and Natural Garden offer stunning displays with fewer people.</p>
+      <h2>Timing Is Everything</h2>
+      <p>Keukenhof usually opens from mid-March to mid-May, but here's the catch: nature doesn’t follow the calendar. Sometimes the gardens open before the tulips are in bloom, and sometimes they stay open even after many flowers have already wilted. That’s why it's best to aim for a visit somewhere in the middle of the opening period—typically mid to late April—to catch the tulips at their peak.</p>
       
-      <h2>Photography Secrets</h2>
-      <ul>
-        <li>The mill area provides elevated views of the flower fields</li>
-        <li>Early morning mist creates ethereal photos</li>
-        <li>Use the reflecting pools for unique compositions</li>
-        <li>The lake areas offer beautiful water reflections</li>
-      </ul>
+      <h2>Getting There: Tickets and Transport</h2>
+      <p>You can buy your Keukenhof tickets online, which I highly recommend since they often offer combi-tickets that include both entry to the gardens and round-trip bus transport. We took the bus from Haarlem, which was super convenient. From the drop-off point, it’s just a short walk to the park entrance.</p>
       
-      <h2>Local Insider Tips</h2>
-      <p>Combine your visit with the surrounding flower fields. Rent a bike and explore the Bollenstreek region for endless tulip fields without the entrance fee.</p>
+      <h2>What’s Inside the Gardens?</h2>
+      <p>Inside Keukenhof, you’ll find beautifully arranged flower beds, themed gardens, pavilions with rare blooms, and plenty of scenic spots for photos. You can also buy tulip bulbs, flowers, and souvenirs on-site.</p>
+      <p><strong>Fun fact:</strong> Although tulips are now a national symbol of the Netherlands, they originally came from the Ottoman Empire (modern-day Turkey) and were introduced to the Dutch in the 16th century. So yes, tulips are adopted, not native!</p>
       
-      <h2>Best Spots for Different Times</h2>
-      <ul>
-        <li>Sunrise: Mill area and lake views</li>
-        <li>Midday: Shaded pavilion areas</li>
-        <li>Sunset: Western flower fields</li>
-      </ul>
+      <h2>My Favorite Discovery: Biking Through the Fields</h2>
+      <p>As much as I loved Keukenhof, my favorite part of the day was actually outside the gardens. Right in front of the entrance, you can rent a bike for a few hours and ride through the nearby countryside, where you'll find endless fields of tulips stretching to the horizon. It’s peaceful, colorful, and incredibly Dutch.</p>
+      <p>Just a heads-up: don’t walk into the tulip fields, tempting as it may be for the perfect Instagram shot. These are working farms, and the tulips are meant to be harvested. Damaging the flowers really upsets the locals (and understandably so).</p>
+      <p>If you're looking for a spot where you're actually allowed to walk among the flowers, check out <a href="https://thetulipbarn.com/" target="_blank" rel="noopener">The Tulip Barn</a>. It’s designed for visitors and photo sessions, and you can book your visit in advance.</p>
+      
+      <h2>A Hidden Gem: Lisse's Old Train Station</h2>
+      <p>If you're biking around Lisse, make a stop at the old train station. It’s no longer in use for trains, but it’s been converted into the cutest café with historical charm and great coffee. It's a lovely break before or after a bike ride, and a great local find.</p>
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@catandremy/video/7229032528638692635" data-video-id="7229032528638692635" style="max-width: 605px;min-width: 325px;">
+        <section>
+          <a target="_blank" title="@catandremy" href="https://www.tiktok.com/@catandremy?refer=embed">@catandremy</a>
+          This was a super nice place we found while cycling in the Netherlands in the search for tulip fields!
+          <a title="netherlands🇳🇱" target="_blank" href="https://www.tiktok.com/tag/netherlands%F0%9F%87%B3%F0%9F%87%B1?refer=embed">#netherlands🇳🇱</a>
+          <a title="netherlands" target="_blank" href="https://www.tiktok.com/tag/netherlands?refer=embed">#netherlands</a>
+          <a title="dutchtiktok" target="_blank" href="https://www.tiktok.com/tag/dutchtiktok?refer=embed">#dutchtiktok</a>
+          <a title="holland" target="_blank" href="https://www.tiktok.com/tag/holland?refer=embed">#holland</a>
+          <a title="restaurant" target="_blank" href="https://www.tiktok.com/tag/restaurant?refer=embed">#restaurant</a>
+          <a title="lisse" target="_blank" href="https://www.tiktok.com/tag/lisse?refer=embed">#lisse</a>
+          <a title="travel" target="_blank" href="https://www.tiktok.com/tag/travel?refer=embed">#travel</a>
+          <a title="traveltiktok" target="_blank" href="https://www.tiktok.com/tag/traveltiktok?refer=embed">#traveltiktok</a>
+          <a title="travelenthusiast" target="_blank" href="https://www.tiktok.com/tag/travelenthusiast?refer=embed">#travelenthusiast</a>
+          <a target="_blank" title="♬ original sound - Cat and Remy" href="https://www.tiktok.com/music/original-sound-7229032506111085339?refer=embed">♬ original sound - Cat and Remy</a>
+        </section>
+      </blockquote>
+      <script async src="https://www.tiktok.com/embed.js"></script>
+      
+      <h2>Final Tip: Pack for Dutch Weather</h2>
+      <p>We had some rain during our visit (very on-brand for the Netherlands), and I’m glad I brought a raincoat—even if I looked a bit ridiculous in it! Whether it's an umbrella or a waterproof jacket, always be prepared for a sudden downpour, especially in spring.</p>
+      <p>If you want a more visual look at our day, check out the video I made on TikTok where I walk through the entire experience—from the bus ride to biking past tulip fields in the rain.</p>
+      
+      <p>Hope you enjoy your own tulip adventure, and may you catch them in full bloom!</p>
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@catandremy/video/7233794860090658074" data-video-id="7233794860090658074" style="max-width: 605px;min-width: 325px;">
+        <section>
+          <a target="_blank" title="@catandremy" href="https://www.tiktok.com/@catandremy?refer=embed">@catandremy</a>
+          Tulips, tulips everywhere! 😁
+          <a title="tulips" target="_blank" href="https://www.tiktok.com/tag/tulips?refer=embed">#tulips</a>
+          <a title="keukenhof" target="_blank" href="https://www.tiktok.com/tag/keukenhof?refer=embed">#keukenhof</a>
+          <a title="thenetherlands" target="_blank" href="https://www.tiktok.com/tag/thenetherlands?refer=embed">#thenetherlands</a>
+          <a title="holland" target="_blank" href="https://www.tiktok.com/tag/holland?refer=embed">#holland</a>
+          <a title="thenetherlands🇳🇱" target="_blank" href="https://www.tiktok.com/tag/thenetherlands%F0%9F%87%B3%F0%9F%87%B1?refer=embed">#thenetherlands🇳🇱</a>
+          <a title="tourism" target="_blank" href="https://www.tiktok.com/tag/tourism?refer=embed">#tourism</a>
+          <a title="bucketlist" target="_blank" href="https://www.tiktok.com/tag/bucketlist?refer=embed">#bucketlist</a>
+          <a title="traveltiktok" target="_blank" href="https://www.tiktok.com/tag/traveltiktok?refer=embed">#traveltiktok</a>
+          <a title="travel" target="_blank" href="https://www.tiktok.com/tag/travel?refer=embed">#travel</a>
+          <a title="travelbucketlist" target="_blank" href="https://www.tiktok.com/tag/travelbucketlist?refer=embed">#travelbucketlist</a>
+          <a target="_blank" title="♬ Good Vibes (Instrumental) - Ellen Once Again" href="https://www.tiktok.com/music/Good-Vibes-Instrumental-7064643531196860417?refer=embed">♬ Good Vibes (Instrumental) - Ellen Once Again</a>
+        </section>
+      </blockquote>
+      <script async src="https://www.tiktok.com/embed.js"></script>
     `,
     image: keukenhofTulips,
     category: "discovering-netherlands",

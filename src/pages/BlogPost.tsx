@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { getPostBySlug } from "@/data/blogPosts";
+import BlogPostContent from "@/components/BlogPostContent";
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -15,7 +16,9 @@ const BlogPost = () => {
         <Header />
         <main className="container mx-auto px-4 py-12 text-center">
           <h1 className="text-4xl font-bold mb-4">Post Not Found</h1>
-          <p className="text-muted-foreground mb-8">The post you're looking for doesn't exist.</p>
+          <p className="text-muted-foreground mb-8">
+            The post you're looking for doesn't exist.
+          </p>
           <Button asChild>
             <Link to="/blog">Back to Blog</Link>
           </Button>
@@ -27,7 +30,7 @@ const BlogPost = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      
+
       <main className="container mx-auto px-4 py-8">
         {/* Back Button */}
         <Button variant="ghost" asChild className="mb-8">
@@ -40,8 +43,8 @@ const BlogPost = () => {
         <article className="max-w-4xl mx-auto">
           {/* Hero Image */}
           <div className="aspect-[16/9] rounded-lg overflow-hidden mb-8">
-            <img 
-              src={post.image} 
+            <img
+              src={post.image}
               alt={post.title}
               className="w-full h-full object-cover"
             />
@@ -50,25 +53,29 @@ const BlogPost = () => {
           {/* Post Header */}
           <header className="mb-8">
             <div className="flex items-center gap-4 mb-4">
-              <Badge 
+              <Badge
                 variant="secondary"
                 className={`${
-                  post.category === 'travel-tips' 
-                    ? 'bg-accent/10 text-accent border-accent/20' 
-                    : 'bg-secondary/10 text-secondary border-secondary/20'
+                  post.category === "travel-tips"
+                    ? "bg-accent/10 text-accent border-accent/20"
+                    : "bg-secondary/10 text-secondary border-secondary/20"
                 }`}
               >
-                {post.category === 'travel-tips' ? 'Travel Tips' : 'Discovering Netherlands'}
+                {post.category === "travel-tips"
+                  ? "Travel Tips"
+                  : "Discovering Netherlands"}
               </Badge>
-              
+
               <div className="flex items-center text-sm text-muted-foreground space-x-4">
                 <div className="flex items-center space-x-1">
                   <Calendar className="w-4 h-4" />
-                  <span>{new Date(post.date).toLocaleDateString('en-US', { 
-                    year: 'numeric', 
-                    month: 'long', 
-                    day: 'numeric' 
-                  })}</span>
+                  <span>
+                    {new Date(post.date).toLocaleDateString("en-US", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}
+                  </span>
                 </div>
                 <div className="flex items-center space-x-1">
                   <Clock className="w-4 h-4" />
@@ -87,22 +94,23 @@ const BlogPost = () => {
           </header>
 
           {/* Post Content */}
-          <div 
-            className="prose prose-lg max-w-none prose-headings:font-heading prose-headings:text-foreground prose-p:text-muted-foreground prose-li:text-muted-foreground prose-a:text-primary hover:prose-a:text-primary-light"
-            dangerouslySetInnerHTML={{ __html: post.content }}
-          />
+          <div className="prose prose-lg max-w-none prose-headings:font-heading prose-headings:text-foreground prose-p:text-muted-foreground prose-li:text-muted-foreground prose-a:text-primary hover:prose-a:text-primary-light">
+            <BlogPostContent html={post.content} />
+          </div>
 
           {/* Post Footer */}
           <footer className="mt-12 pt-8 border-t">
             <div className="flex flex-wrap gap-4 justify-between items-center">
               <div className="text-sm text-muted-foreground">
-                Published on {new Date(post.date).toLocaleDateString('en-US', { 
-                  year: 'numeric', 
-                  month: 'long', 
-                  day: 'numeric' 
-                })} by {post.author}
+                Published on{" "}
+                {new Date(post.date).toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}{" "}
+                by {post.author}
               </div>
-              
+
               <Button asChild>
                 <Link to="/blog">Read More Posts</Link>
               </Button>

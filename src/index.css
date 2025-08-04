@@ -1,9 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* Netherlands Travel Blog Design System */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 @layer base {
   :root {
@@ -50,9 +50,21 @@
     --soft-gray: 210 16% 93%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(211 84% 45%) 0%, hsl(142 76% 36%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(42 30% 98%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(24 95% 53%) 0%, hsl(24 95% 73%) 100%);
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(211 84% 45%) 0%,
+      hsl(142 76% 36%) 100%
+    );
+    --gradient-card: linear-gradient(
+      145deg,
+      hsl(0 0% 100%) 0%,
+      hsl(42 30% 98%) 100%
+    );
+    --gradient-accent: linear-gradient(
+      135deg,
+      hsl(24 95% 53%) 0%,
+      hsl(24 95% 73%) 100%
+    );
 
     /* Shadows */
     --shadow-soft: 0 4px 20px -4px hsl(210 24% 16% / 0.1);
@@ -60,8 +72,8 @@
     --shadow-strong: 0 20px 60px -12px hsl(210 24% 16% / 0.25);
 
     /* Typography */
-    --font-heading: 'Playfair Display', serif;
-    --font-body: 'Inter', sans-serif;
+    --font-heading: "Playfair Display", serif;
+    --font-body: "Inter", sans-serif;
 
     --radius: 0.5rem;
 
@@ -134,7 +146,12 @@
     @apply bg-background text-foreground font-body;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-heading;
   }
 
@@ -144,19 +161,19 @@
     border-bottom: 2px solid hsl(var(--primary));
     padding-bottom: 0.5rem;
   }
-  
+
   .prose h3 {
     @apply text-xl font-semibold text-foreground mb-3 mt-6 font-heading;
   }
-  
+
   .prose p {
     @apply text-base leading-relaxed text-muted-foreground mb-4;
   }
-  
+
   .prose ul {
     @apply space-y-2 mb-6;
   }
-  
+
   .prose li {
     @apply text-muted-foreground;
   }
