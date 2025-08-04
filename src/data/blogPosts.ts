@@ -1,7 +1,7 @@
 import amsterdamCanal from "@/assets/amsterdam-canal.jpg";
 import keukenhofTulips from "@/assets/keukenhof-tulips.jpg";
 import dutchCountryside from "@/assets/dutch-countryside.jpg";
-import dutchLakeSwimming from "@/assets/dutch-lake-swimming.png";
+import dutchLakeSwimming from "@/assets/dutch-lake-swimming.jpg";
 
 export interface BlogPost {
   id: string;
@@ -9,7 +9,7 @@ export interface BlogPost {
   excerpt: string;
   content: string;
   image: string;
-  category: 'travel-tips' | 'discovering-netherlands';
+  category: "travel-tips" | "discovering-netherlands";
   date: string;
   readTime: string;
   slug: string;
@@ -20,7 +20,8 @@ export const blogPosts: BlogPost[] = [
   {
     id: "1",
     title: "What to do in Haarlem",
-    excerpt: "Discover the charming historic city of Haarlem, just 20 minutes from Amsterdam, with its stunning architecture, museums, and local culture.",
+    excerpt:
+      "Discover the charming historic city of Haarlem, just 20 minutes from Amsterdam, with its stunning architecture, museums, and local culture.",
     content: `
       <p>Haarlem is a picturesque Dutch city just 20 minutes from Amsterdam. Perfect for a day trip with all the charm but none of the crowds.</p>
       
@@ -59,12 +60,13 @@ export const blogPosts: BlogPost[] = [
     date: "2024-01-15",
     readTime: "5 min read",
     slug: "what-to-do-in-haarlem",
-    author: "Travel Explorer"
+    author: "Travel Explorer",
   },
   {
     id: "2",
     title: "A Guide to Swimming in Dutch Lakes",
-    excerpt: "Discover the hidden gems of Dutch lakes for swimming, sunbathing, and enjoying nature. Perfect summer activities with insider tips and recommendations.",
+    excerpt:
+      "Discover the hidden gems of Dutch lakes for swimming, sunbathing, and enjoying nature. Perfect summer activities with insider tips and recommendations.",
     content: `
       <p>The Netherlands might be known for its canals, tulips, and bikes, but come summer, Dutch lakes become hidden gems for swimming, sunbathing, and enjoying nature. Whether you're a local looking for a refreshing dip or a visitor seeking an authentic outdoor experience, Dutch lakes have something for everyone.</p>
       
@@ -131,12 +133,13 @@ export const blogPosts: BlogPost[] = [
     date: "2024-01-12",
     readTime: "6 min read",
     slug: "swimming-dutch-lakes-guide",
-    author: "Lake Explorer"
+    author: "Lake Explorer",
   },
   {
     id: "3",
     title: "Keukenhof Gardens: Beyond the Touristy Spots",
-    excerpt: "Experience Keukenhof Gardens like a local with insider tips for the best routes, timing, and hidden photo spots.",
+    excerpt:
+      "Experience Keukenhof Gardens like a local with insider tips for the best routes, timing, and hidden photo spots.",
     content: `
       <p>Keukenhof is world-famous for its tulip displays, but most visitors follow the same crowded routes. Here's how to experience it differently.</p>
       
@@ -169,16 +172,16 @@ export const blogPosts: BlogPost[] = [
     date: "2024-01-05",
     readTime: "6 min read",
     slug: "keukenhof-gardens-insider-guide",
-    author: "Garden Explorer"
-  }
+    author: "Garden Explorer",
+  },
 ];
 
 export const getPostBySlug = (slug: string): BlogPost | undefined => {
-  return blogPosts.find(post => post.slug === slug);
+  return blogPosts.find((post) => post.slug === slug);
 };
 
 export const getPostsByCategory = (category: string): BlogPost[] => {
-  return blogPosts.filter(post => post.category === category);
+  return blogPosts.filter((post) => post.category === category);
 };
 
 export const getFeaturedPosts = (limit: number = 3): BlogPost[] => {
