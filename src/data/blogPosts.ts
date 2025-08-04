@@ -137,8 +137,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: "3",
-    title:
-      "How to See the Tulips in the Netherlands: My Keukenhof Experience (and a Few Local Tips)",
+    title: "How to See the Tulips in the Netherlands",
     excerpt:
       "Planning to see the iconic Dutch tulips? Here’s what I learned from my Keukenhof adventure, plus tips for exploring the fields like a local.",
     content: `
