@@ -15,17 +15,17 @@ const Index = () => {
       <Hero />
       
       {/* Featured Posts Section */}
-      <section className="container mx-auto px-4 py-16">
-        <div className="text-center mb-12">
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-4">
+      <section className="container mx-auto px-4 py-8 sm:py-12 lg:py-16">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 sm:mb-4 px-4">
             Latest Adventures
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
             Discover our newest travel tips and hidden gems across the Netherlands
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-8 sm:mb-12">
           {featuredPosts.map(post => (
             <BlogCard key={post.id} post={post} />
           ))}
@@ -42,15 +42,15 @@ const Index = () => {
       </section>
 
       {/* Categories Section */}
-      <section className="bg-muted py-16">
+      <section className="bg-muted py-8 sm:py-12 lg:py-16">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-gradient-card rounded-lg p-8 shadow-soft hover:shadow-medium transition-all duration-300">
-              <div className="text-4xl mb-4">🎒</div>
-              <h3 className="font-heading text-2xl font-bold text-foreground mb-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+            <div className="bg-gradient-card rounded-lg p-6 sm:p-8 shadow-soft hover:shadow-medium transition-all duration-300">
+              <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">🎒</div>
+              <h3 className="font-heading text-xl sm:text-2xl font-bold text-foreground mb-3 sm:mb-4">
                 Travel Tips
               </h3>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-sm sm:text-base text-muted-foreground mb-4 sm:mb-6 leading-relaxed">
                 Smart strategies, budget advice, and insider tips to make your Dutch adventure 
                 unforgettable and affordable.
               </p>
@@ -62,12 +62,12 @@ const Index = () => {
               </Button>
             </div>
             
-            <div className="bg-gradient-card rounded-lg p-8 shadow-soft hover:shadow-medium transition-all duration-300">
-              <div className="text-4xl mb-4">🌷</div>
-              <h3 className="font-heading text-2xl font-bold text-foreground mb-4">
+            <div className="bg-gradient-card rounded-lg p-6 sm:p-8 shadow-soft hover:shadow-medium transition-all duration-300">
+              <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">🌷</div>
+              <h3 className="font-heading text-xl sm:text-2xl font-bold text-foreground mb-3 sm:mb-4">
                 Discovering Netherlands
               </h3>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-sm sm:text-base text-muted-foreground mb-4 sm:mb-6 leading-relaxed">
                 Hidden gems, local secrets, and authentic experiences across the beautiful 
                 Netherlands that locals don't want you to miss.
               </p>

@@ -24,25 +24,25 @@ const Hero = () => {
             <span className="text-accent font-medium">Exploring the Netherlands</span>
           </div>
           
-          <h1 className="font-heading text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
             Discover Hidden Gems
             <span className="block text-accent">& Travel Smart</span>
           </h1>
           
-          <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 text-gray-200 max-w-2xl mx-auto px-4 sm:px-0">
             Your guide to authentic Dutch experiences, insider travel tips, and unforgettable adventures 
             in the land of tulips and windmills.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4 sm:px-0">
             <Button 
               asChild 
               size="lg" 
-              className="bg-primary hover:bg-primary-light text-primary-foreground shadow-strong"
+              className="bg-primary hover:bg-primary-light text-primary-foreground shadow-strong w-full sm:w-auto"
             >
               <Link to="/blog">
                 Explore All Posts
-                <ArrowRight className="ml-2 w-5 h-5" />
+                <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
               </Link>
             </Button>
             
@@ -50,7 +50,7 @@ const Hero = () => {
               asChild 
               variant="outline" 
               size="lg"
-              className="border-white/30 text-white hover:bg-white/10 backdrop-blur"
+              className="border-white/30 text-white hover:bg-white/10 backdrop-blur w-full sm:w-auto"
             >
               <Link to="/category/discovering-netherlands">
                 Discover Netherlands

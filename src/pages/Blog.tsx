@@ -15,18 +15,18 @@ const Blog = () => {
     <div className="min-h-screen bg-background">
       <Header />
       
-      <main className="container mx-auto px-4 py-12">
-        <div className="text-center mb-12">
-          <h1 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-4">
+      <main className="container mx-auto px-4 py-8 sm:py-12">
+        <div className="text-center mb-8 sm:mb-12">
+          <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-3 sm:mb-4 px-4">
             Travel Blog
           </h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
             Discover insider tips, hidden gems, and authentic experiences across the Netherlands
           </p>
         </div>
 
         {/* Category Filter */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
+        <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-8 sm:mb-12 px-4">
           <Button
             variant={selectedCategory === 'all' ? 'default' : 'outline'}
             onClick={() => setSelectedCategory('all')}
@@ -51,7 +51,7 @@ const Blog = () => {
         </div>
 
         {/* Blog Posts Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {filteredPosts.map(post => (
             <BlogCard key={post.id} post={post} />
           ))}

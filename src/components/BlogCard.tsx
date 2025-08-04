@@ -29,8 +29,8 @@ const BlogCard = ({ post }: BlogCardProps) => {
           />
         </div>
         
-        <div className="p-6">
-          <div className="flex items-center justify-between mb-3">
+        <div className="p-4 sm:p-6">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3 space-y-2 sm:space-y-0">
             <Badge 
               variant="secondary" 
               className={`${
@@ -42,23 +42,23 @@ const BlogCard = ({ post }: BlogCardProps) => {
               {post.category === 'travel-tips' ? 'Travel Tips' : 'Discovering Netherlands'}
             </Badge>
             
-            <div className="flex items-center text-sm text-muted-foreground space-x-3">
+            <div className="flex flex-col sm:flex-row sm:items-center text-sm text-muted-foreground space-y-1 sm:space-y-0 sm:space-x-3">
               <div className="flex items-center space-x-1">
-                <Calendar className="w-4 h-4" />
-                <span>{post.date}</span>
+                <Calendar className="w-3 h-3 sm:w-4 sm:h-4" />
+                <span className="text-xs sm:text-sm">{post.date}</span>
               </div>
               <div className="flex items-center space-x-1">
-                <Clock className="w-4 h-4" />
-                <span>{post.readTime}</span>
+                <Clock className="w-3 h-3 sm:w-4 sm:h-4" />
+                <span className="text-xs sm:text-sm">{post.readTime}</span>
               </div>
             </div>
           </div>
           
-          <h3 className="font-heading text-xl font-semibold text-card-foreground mb-3 group-hover:text-primary transition-colors">
+          <h3 className="font-heading text-lg sm:text-xl font-semibold text-card-foreground mb-2 sm:mb-3 group-hover:text-primary transition-colors leading-tight">
             {post.title}
           </h3>
           
-          <p className="text-muted-foreground line-clamp-3">
+          <p className="text-sm sm:text-base text-muted-foreground line-clamp-3 leading-relaxed">
             {post.excerpt}
           </p>
         </div>
