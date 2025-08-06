@@ -38,7 +38,7 @@ export const blogPosts: BlogPost[] = [
       <p>Some of my favorites include concept stores, little vintage spots, and home decor shops. It's not as cheap as H&M, but it feels good to support local business—and the selection is so much more unique.</p>
       
       <h2>3. Snack Stop: Dutch Kibbeling (Better than Fish & Chips?)</h2>
-      <p>As you keep walking toward the Cathedral of St. Bavo (Kathedrale Basiliek Sint Bavo)—yes, a different one from the first church—make sure to stop at a small fish joint that serves kibbeling (deep-fried chunks of cod with remoulade or garlic sauce). I'll add the name and address once I double-check it, but trust me: this place is the best I've tried in the Netherlands so far.</p>
+      <p>As you keep walking toward the Cathedral of St. Bavo (Kathedrale Basiliek Sint Bavo)—yes, a different one from the first church—make sure to stop at <strong>Willy's Vis</strong> for some kibbeling (deep-fried chunks of cod with remoulade or garlic sauce). This place serves the best kibbeling I've tried in the Netherlands so far.</p>
       
       <p>As much as I loved fish and chips in Ireland and the UK, kibbeling wins for me—though I do miss the chips or a slice of bread to balance the grease. Still, it's a must-try Dutch street food snack!</p>
       
@@ -57,7 +57,7 @@ export const blogPosts: BlogPost[] = [
       <p>If you're looking for something more casual, Haarlem has no shortage of amazing restaurants. A big plus is the Indonesian food scene. I've had Kokilondo on my list for ages—it's a favorite among locals and always fully booked, so definitely reserve in advance.</p>
       
       <h2>8. Swim and Cool Off Nearby</h2>
-      <p>If you're visiting in the warmer months and want to take a dip, I've got a separate guide on the best places to swim in and around Haarlem—including lakes and local spots that aren't packed with tourists.</p>
+      <p>If you're visiting in the warmer months and want to take a dip, I've got a <a href="/blog/swimming-dutch-lakes-guide">separate guide on the best places to swim in and around Haarlem</a>—including lakes and local spots that aren't packed with tourists.</p>
       
       <h2>Final Thoughts</h2>
       <p>Haarlem may not have the international fame of Amsterdam, but that's exactly its charm. It's authentic, peaceful, and full of hidden treasures—perfect for a day trip or even a longer stay. Whether you're walking through its leafy streets, enjoying a plate of kibbeling, or gazing at the city from a cathedral tower, there's something magical about this place.</p>
