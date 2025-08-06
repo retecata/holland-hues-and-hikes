@@ -23,44 +23,44 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Discover Haarlem through the eyes of a local, with personal recommendations for the best food, hidden gems, and authentic experiences in this charming Dutch city.",
     content: `
-      <p>Not too long ago, I moved to Haarlem, a charming city just a short train ride from Amsterdam. Unlike the bustling capital, Haarlem is peaceful, cozy, and full of character. What makes this city even more special to me is that my boyfriend was born and raised here—so I've had the privilege of discovering Haarlem not just as a newcomer, but through the eyes of someone who knows all the good spots. Here are my favorite things to do in Haarlem, from strolls through picturesque streets to hidden gems for food lovers.</p>
-      
-      <h2>1. Start at Grote Markt & St. Bavokerk</h2>
-      <p>Begin your walk at the Grote Markt, the heart of the city. Here you'll find St. Bavokerk (or Grote Kerk)—a stunning Gothic church, not to be confused with the St. Bavo Cathedral (I'll get to that one later). You can go inside the church for a small fee, and it's well worth it: it houses an enormous Müller organ, one of the most famous organs in the world, played by none other than Mozart in 1766 when he was just 10 years old. Bach and Handel also admired it!</p>
-      
-      <p>If you're hungry, grab some fries from Friethoes, one of the oldest and most beloved spots for fries in Haarlem. Dutch people take their fries seriously—make sure to try them with loads of sauce (my personal favorite is a mix of mayo and satay sauce, aka "patatje oorlog").</p>
-      
-      <p>Right next to the church, you'll also see Haarlem's City Hall (Stadhuis), a striking building with beautiful architecture. The area is surrounded by terraces, so it's the perfect place to sit down for a drink or bite. What I really love about Haarlem is that you rarely stumble into a tourist trap—unlike Amsterdam, where finding good food requires serious research. In Haarlem, if you sit down somewhere, chances are it's going to be good.</p>
+       <p>Not too long ago, I moved to Haarlem, a charming city just a short train ride from Amsterdam. Unlike the bustling capital, Haarlem is peaceful, cozy, and full of character. What makes this city even more special to me is that my boyfriend was born and raised here, so I've had the privilege of discovering Haarlem not just as a newcomer, but through the eyes of someone who knows all the good spots. Here are my favorite things to do in Haarlem, from strolls through picturesque streets to hidden gems for food lovers.</p>
+       
+       <h2>1. Start at Grote Markt & St. Bavokerk</h2>
+       <p>Begin your walk at the Grote Markt, the heart of the city. Here you'll find St. Bavokerk (or Grote Kerk), a stunning Gothic church. Don't confuse it with the St. Bavo Cathedral (I'll get to that one later). You can go inside the church for a small fee, and it's well worth it: it houses an enormous Müller organ, one of the most famous organs in the world, played by none other than Mozart in 1766 when he was just 10 years old. Bach and Handel also admired it!</p>
+       
+       <p>If you're hungry, grab some fries from Friethoes, one of the oldest and most beloved spots for fries in Haarlem. Dutch people take their fries seriously. Make sure to try them with loads of sauce (my personal favorite is a mix of mayo and satay sauce, aka "patatje oorlog").</p>
+       
+       <p>Right next to the church, you'll also see Haarlem's City Hall (Stadhuis), a striking building with beautiful architecture. The area is surrounded by terraces, so it's the perfect place to sit down for a drink or bite. What I really love about Haarlem is that you rarely stumble into a tourist trap. Unlike Amsterdam, where finding good food requires serious research, in Haarlem, if you sit down somewhere, chances are it's going to be good.</p>
       
       <h2>2. Shopping Along the Gouden Straatjes</h2>
-      <p>From Grote Markt, head toward the Gouden Straatjes ("Golden Streets")—a network of small, boutique-filled shopping streets. Haarlem is known for its independent shops and slow fashion boutiques, so even if you're just window-shopping, it's a fun way to explore.</p>
-      
-      <p>Some of my favorites include concept stores, little vintage spots, and home decor shops. It's not as cheap as H&M, but it feels good to support local business—and the selection is so much more unique.</p>
+       <p>From Grote Markt, head toward the Gouden Straatjes ("Golden Streets"), a network of small, boutique-filled shopping streets. Haarlem is known for its independent shops and slow fashion boutiques, so even if you're just window-shopping, it's a fun way to explore.</p>
+       
+       <p>Some of my favorites include concept stores, little vintage spots, and home decor shops. It's not as cheap as H&M, but it feels good to support local business, and the selection is so much more unique.</p>
       
       <h2>3. Snack Stop: Dutch Kibbeling (Better than Fish & Chips?)</h2>
-      <p>As you keep walking toward the Cathedral of St. Bavo (Kathedrale Basiliek Sint Bavo)—yes, a different one from the first church—make sure to stop at <strong>Willy's Vis</strong> for some kibbeling (deep-fried chunks of cod with remoulade or garlic sauce). This place serves the best kibbeling I've tried in the Netherlands so far.</p>
-      
-      <p>As much as I loved fish and chips in Ireland and the UK, kibbeling wins for me—though I do miss the chips or a slice of bread to balance the grease. Still, it's a must-try Dutch street food snack!</p>
+       <p>As you keep walking toward the Cathedral of St. Bavo (Kathedrale Basiliek Sint Bavo), yes, a different one from the first church, make sure to stop at <strong>Willy's Vis</strong> for some kibbeling (deep-fried chunks of cod with remoulade or garlic sauce). This place serves the best kibbeling I've tried in the Netherlands so far.</p>
+       
+       <p>As much as I loved fish and chips in Ireland and the UK, kibbeling wins for me, though I do miss the chips or a slice of bread to balance the grease. Still, it's a must-try Dutch street food snack!</p>
       
       <h2>4. Climb the Towers at the Cathedral</h2>
-      <p>Once you reach the Cathedral of St. Bavo, you can go inside (tickets required) and even climb up to the top of the towers. The view from up there is absolutely worth it—panoramic scenes of Haarlem's rooftops, canals, and beyond. It's also a great place to take some Instagram-worthy photos if you're into that.</p>
+      <p>Once you reach the Cathedral of St. Bavo, you can go inside (tickets required) and even climb up to the top of the towers. The view from up there is absolutely worth it: panoramic scenes of Haarlem's rooftops, canals, and beyond. It's also a great place to take some Instagram-worthy photos if you're into that.</p>
       
       <h2>5. Visit the Koepelgevangenis (The Dome Prison)</h2>
-      <p>One of the coolest things I've done here is visit De Koepel, a former prison turned cultural hub. It now hosts a cinema, bar, café, and creative office spaces. The architecture alone is fascinating, and it's just really inspiring to see how a place once used for incarceration has become a space for creativity and community. Definitely worth a look.</p>
+       <p>One of the coolest things I've done here is visit De Koepel, a former prison turned cultural hub. It now hosts a cinema, bar, café, and creative office spaces. The architecture alone is fascinating, and it's just really inspiring to see how a place once used for incarceration has become a space for creativity and community. Definitely worth a look.</p>
       
       <h2>6. Take a Photo at De Adriaan Windmill</h2>
       <p>A short walk from the Koepel is Molen De Adriaan, one of Haarlem's most iconic landmarks. It's a reconstructed windmill that stands along the Spaarne River. You can take a tour inside or simply take beautiful pictures from the nearby bridge. Bonus points if you catch it during golden hour!</p>
       
       <h2>7. Dine Like Royalty (or a Rat): Ratatouille and Other Gems</h2>
-      <p>For a special occasion, we celebrated my boyfriend's birthday at Ratatouille Food & Wine, a Michelin-starred restaurant in the city. Yes, it's named just like the movie and even has the mouse in its logo. The food? Absolutely delicious—refined, elegant, and still warm and welcoming.</p>
-      
-      <p>If you're looking for something more casual, Haarlem has no shortage of amazing restaurants. A big plus is the Indonesian food scene. I've had Kokilondo on my list for ages—it's a favorite among locals and always fully booked, so definitely reserve in advance.</p>
+       <p>For a special occasion, we celebrated my boyfriend's birthday at Ratatouille Food & Wine, a Michelin-starred restaurant in the city. Yes, it's named just like the movie and even has the mouse in its logo. The food? Absolutely delicious. Refined, elegant, and still warm and welcoming.</p>
+       
+       <p>If you're looking for something more casual, Haarlem has no shortage of amazing restaurants. A big plus is the Indonesian food scene. I've had Kokilondo on my list for ages. It's a favorite among locals and always fully booked, so definitely reserve in advance.</p>
       
       <h2>8. Swim and Cool Off Nearby</h2>
-      <p>If you're visiting in the warmer months and want to take a dip, I've got a <a href="/blog/swimming-dutch-lakes-guide">separate guide on the best places to swim in and around Haarlem</a>—including lakes and local spots that aren't packed with tourists.</p>
+      <p>If you're visiting in the warmer months and want to take a dip, I've got a <a href="/blog/swimming-dutch-lakes-guide">separate guide on the best places to swim in and around Haarlem</a>, including lakes and local spots that aren't packed with tourists.</p>
       
       <h2>Final Thoughts</h2>
-      <p>Haarlem may not have the international fame of Amsterdam, but that's exactly its charm. It's authentic, peaceful, and full of hidden treasures—perfect for a day trip or even a longer stay. Whether you're walking through its leafy streets, enjoying a plate of kibbeling, or gazing at the city from a cathedral tower, there's something magical about this place.</p>
+      <p>Haarlem may not have the international fame of Amsterdam, but that's exactly its charm. It's authentic, peaceful, and full of hidden treasures. Perfect for a day trip or even a longer stay. Whether you're walking through its leafy streets, enjoying a plate of kibbeling, or gazing at the city from a cathedral tower, there's something magical about this place.</p>
       
       <p>Let me know if you end up visiting—and if you try that kibbeling, tell me if you agree that it beats fish and chips!</p>
     `,
