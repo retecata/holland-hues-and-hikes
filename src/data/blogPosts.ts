@@ -77,63 +77,27 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Discover the hidden gems of Dutch lakes for swimming, sunbathing, and enjoying nature. Perfect summer activities with insider tips and recommendations.",
     content: `
-      <p>The Netherlands might be known for its canals, tulips, and bikes, but come summer, Dutch lakes become hidden gems for swimming, sunbathing, and enjoying nature. Whether you're a local looking for a refreshing dip or a visitor seeking an authentic outdoor experience, Dutch lakes have something for everyone.</p>
+      <p>You know what I discovered this summer? Dutch lakes are actually amazing for swimming. I always thought the Netherlands was just canals and tulips, but when the weather got hot, my boyfriend introduced me to these incredible lake spots around Haarlem that completely changed my mind.</p>
       
-      <h2>Why Swim in a Dutch Lake?</h2>
-      <p><strong>Natural beauty:</strong> Many lakes are surrounded by forests, dunes, or peaceful meadows.</p>
+      <p>First off, the water is surprisingly clean. Way cleaner than I expected! They test it regularly throughout the season, and I always check the water quality on Water Map Live before heading out. But here's the best part: when it was 30°C this summer, the lake water was around 21-22°C, which felt perfect for swimming. Meanwhile, the sea at Zandvoort was still a chilly 18°C.</p>
       
-      <p><strong>Surprisingly clean:</strong> Water quality is regularly tested and updated throughout the season. I usually check the water quality at <a href="#" target="_blank">Water Map Live</a>.</p>
+      <p>Plus, most lakes are free to access and you can actually get there by bike or public transport, which feels very Dutch.</p>
       
-      <p><strong>Warmer than the sea!</strong> When temperatures hit 30°C this summer, lake water reached a pleasant 21–22°C—perfect for swimming. In contrast, the sea at Zandvoort stayed around 18°C.</p>
+      <h2>My Favorite Lake Spots</h2>
+      <p>I've been to quite a few lakes now, but these three are the ones I keep going back to:</p>
       
-      <p><strong>Free access and easy to reach:</strong> Most lakes are freely accessible and often reachable by bike or public transport.</p>
+      <p><strong>Het Wed</strong> is probably the most Instagram-worthy because it's right in the dunes. It does get busy on weekends, but there's plenty of space to spread out. You can bike there easily, and there's parking if you're coming by car. They do warn about swimmer's itch because of the dune location, but honestly, I've never had issues. Just rinse off when you get home.</p>
       
-      <h2>My Favourite Lakes Around Haarlem</h2>
-      <p>These are the lakes I've personally tested and recommend:</p>
+      <p><strong>Molenplas</strong> has this great beach area, but if you walk around a bit, you'll find quieter spots too. There's a restaurant with a terrace nearby, which is perfect for lunch after swimming. The coolest thing though? You can have BBQs on the grass with this amazing view of a traditional windmill. It's like the most Dutch experience ever. Oh, and there's a Jumbo supermarket close by if you need to grab supplies.</p>
       
-      <h3>1. Het Wed</h3>
-      <ul>
-        <li>Super nice location in the dunes, can get a bit busy but plenty of space</li>
-        <li>Bike path and parking space available nearby for both cars and bikes</li>
-        <li>Located in the dunes - they warn about swimmer's itch, but it's generally fine. Just shower shortly after swimming</li>
-      </ul>
+      <p><strong>Haarlemmerhout</strong> is the biggest of the three and tends to be quieter overall. The water is super clear here, and it's perfect if you want a more peaceful swimming experience. Great for BBQs too.</p>
       
-      <h3>2. Molenplas</h3>
-      <ul>
-        <li>Has a beach area, but also quieter spots</li>
-        <li>Restaurant nearby with a terrace</li>
-        <li>You can have BBQs on the grass with an amazing view of a windmill - feels very Dutch!</li>
-        <li>Jumbo supermarket nearby for supplies</li>
-      </ul>
+      <h2>Things to Know Before You Go</h2>
+      <p>Water quality is the main thing to check. They update bacteria levels and algae warnings pretty regularly, so just give it a quick look before heading out. Not all spots have toilets or food stands, so plan accordingly. And heads up: most places don't allow dogs in the swimming areas, and open fires are usually a no-go too.</p>
       
-      <h3>3. Haarlemmerhout</h3>
-      <ul>
-        <li>Much bigger than the other two</li>
-        <li>Quieter areas with super clear water</li>
-        <li>Perfect for BBQs and peaceful swimming</li>
-      </ul>
+      <p>Bring the usual stuff: swimwear, towel, sunscreen. I'd definitely recommend flip-flops or water shoes, especially if you're going somewhere with rocky shores. Pack some snacks or a proper picnic (some lakes have food trucks, but don't count on it). And please, bring a trash bag. Keep these places beautiful for everyone!</p>
       
-      <h2>What to Check Before You Go</h2>
-      <ul>
-        <li><strong>Water quality:</strong> Check real-time updates on bacteria levels and algae warnings</li>
-        <li><strong>Facilities:</strong> Not all locations have toilets, lifeguards, or food stands—check in advance</li>
-        <li><strong>Rules:</strong> Dogs are often not allowed in swimming areas. Open fires and barbecues are usually prohibited too</li>
-      </ul>
-      
-      <h2>What to Bring</h2>
-      <ul>
-        <li>Swimwear, towel, and sunscreen</li>
-        <li>Flip-flops or water shoes (especially for rocky shores)</li>
-        <li>Snacks or a picnic (some lakes may have food trucks)</li>
-        <li>Trash bag—always clean up after yourself!</li>
-      </ul>
-      
-      <h2>Pro Tips</h2>
-      <ul>
-        <li>Arrive early or go on weekdays to avoid the crowds</li>
-        <li>Make a full day out of it—combine your swim with a bike ride or nature walk</li>
-        <li>Watch out for cheeky ducks... they'll go straight for your lunch if you're not looking!</li>
-      </ul>
+      <p>My advice? Go early or on weekdays if you want to avoid crowds. Make a whole day of it by combining your swim with a bike ride or nature walk. And watch out for the ducks—they're absolutely shameless about going after your lunch if you're not paying attention!</p>
       
       <p>Swimming in Dutch lakes is a simple and refreshing way to enjoy summer. Whether you're looking for a relaxing solo dip or a fun outing with friends, there's a lake for every vibe. So grab your towel, hop on your bike, and dive in—Dutch summer style!</p>
     `,
