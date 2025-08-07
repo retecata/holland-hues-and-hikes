@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import BlogCard from "@/components/BlogCard";
-import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
@@ -12,11 +11,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <SEO 
-        title="Holland Hues & Hikes - Discover the Netherlands | Travel Blog"
-        description="Discover the Netherlands through insider travel tips, hidden gems, and authentic local experiences. Your guide to Haarlem, Dutch lakes, tulips, and more."
-        keywords="Netherlands travel, Dutch travel guide, Haarlem guide, Keukenhof tulips, Dutch lakes swimming, Holland travel tips, Netherlands tourism"
-      />
       <Header />
       <Hero />
       
