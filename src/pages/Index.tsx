@@ -5,9 +5,16 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { getFeaturedPosts } from "@/data/blogPosts";
+import { useSEO } from "@/hooks/useSEO";
 
 const Index = () => {
   const featuredPosts = getFeaturedPosts(3);
+
+  useSEO({
+    title: "Holland Hues & Hikes - Discover the Netherlands | Travel Blog",
+    description: "Discover the Netherlands through insider travel tips, hidden gems, and authentic local experiences. Your guide to Haarlem, Dutch lakes, tulips, and more.",
+    keywords: "Netherlands travel, Dutch travel guide, Haarlem guide, Keukenhof tulips, Dutch lakes swimming, Holland travel tips, Netherlands tourism"
+  });
 
   return (
     <div className="min-h-screen bg-background">

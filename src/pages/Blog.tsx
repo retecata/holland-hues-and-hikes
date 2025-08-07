@@ -3,9 +3,16 @@ import Header from "@/components/Header";
 import BlogCard from "@/components/BlogCard";
 import { Button } from "@/components/ui/button";
 import { blogPosts } from "@/data/blogPosts";
+import { useSEO } from "@/hooks/useSEO";
 
 const Blog = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
+
+  useSEO({
+    title: "Travel Blog - Netherlands Travel Tips & Guides | Holland Hues & Hikes",
+    description: "Browse our collection of Netherlands travel guides, insider tips, and local experiences. From Haarlem adventures to Dutch lakes and Keukenhof tulips.",
+    keywords: "Netherlands travel blog, Dutch travel tips, Holland travel guide, Haarlem blog, Netherlands tourism, Dutch culture"
+  });
 
   const filteredPosts = selectedCategory === 'all' 
     ? blogPosts 
