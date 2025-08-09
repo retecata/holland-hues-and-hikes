@@ -11,7 +11,23 @@ const Blog = () => {
   useSEO({
     title: "Travel Blog - Netherlands Travel Tips & Guides | Holland Hues & Hikes",
     description: "Browse our collection of Netherlands travel guides, insider tips, and local experiences. From Haarlem adventures to Dutch lakes and Keukenhof tulips.",
-    keywords: "Netherlands travel blog, Dutch travel tips, Holland travel guide, Haarlem blog, Netherlands tourism, Dutch culture"
+    keywords: "Netherlands travel blog, Dutch travel tips, Holland travel guide, Haarlem blog, Netherlands tourism, Dutch culture",
+    structuredData: [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type":"ListItem","position":1,"name":"Home","item": typeof window !== 'undefined' ? `${window.location.origin}/` : undefined},
+          {"@type":"ListItem","position":2,"name":"Blog","item": typeof window !== 'undefined' ? `${window.location.origin}/blog` : undefined}
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Holland Hues & Hikes Blog",
+        "url": typeof window !== 'undefined' ? `${window.location.origin}/blog` : undefined
+      }
+    ]
   });
 
   const filteredPosts = selectedCategory === 'all' 

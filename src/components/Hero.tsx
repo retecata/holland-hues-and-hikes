@@ -11,6 +11,9 @@ const Hero = () => {
         <img
           src={heroImage}
           alt="Beautiful Dutch landscape"
+          loading="eager"
+          decoding="async"
+          fetchPriority="high"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-black/40" />

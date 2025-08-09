@@ -6,6 +6,7 @@ interface SEOOptions {
   keywords?: string;
   ogImage?: string;
   canonicalUrl?: string;
+  structuredData?: any | any[];
 }
 
 export const useSEO = ({
@@ -13,7 +14,8 @@ export const useSEO = ({
   description = "Discover the Netherlands through insider travel tips, hidden gems, and authentic local experiences. Your guide to Haarlem, Dutch lakes, tulips, and more.",
   keywords = "Netherlands travel, Dutch travel guide, Haarlem guide, Keukenhof tulips, Dutch lakes swimming, Holland travel tips, Netherlands tourism",
   ogImage = "https://lovable.dev/opengraph-image-p98pqg.png",
-  canonicalUrl
+  canonicalUrl,
+  structuredData
 }: SEOOptions = {}) => {
   useEffect(() => {
     // Update document title
@@ -51,20 +53,38 @@ export const useSEO = ({
     updateMetaTag('twitter:description', description);
     updateMetaTag('twitter:image', ogImage);
 
-    // Canonical URL
-    if (canonicalUrl) {
+    // Canonical URL (fallback to current location)
+    const href = canonicalUrl ?? (typeof window !== 'undefined' ? window.location.href : undefined);
+    if (href) {
       let canonicalElement = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;
       if (!canonicalElement) {
         canonicalElement = document.createElement('link');
         canonicalElement.setAttribute('rel', 'canonical');
         document.head.appendChild(canonicalElement);
       }
-      canonicalElement.setAttribute('href', canonicalUrl);
+      canonicalElement.setAttribute('href', href);
+      // Open Graph URL
+      updateMetaTag('og:url', href, true);
+    }
+
+    // Structured Data (JSON-LD)
+    const existingLd = document.getElementById('structured-data');
+    if (structuredData) {
+      let ld = existingLd as HTMLScriptElement | null;
+      if (!ld) {
+        ld = document.createElement('script');
+        ld.type = 'application/ld+json';
+        ld.id = 'structured-data';
+        document.head.appendChild(ld);
+      }
+      ld.textContent = JSON.stringify(structuredData);
+    } else if (existingLd) {
+      existingLd.remove();
     }
 
     // Cleanup function to reset title on unmount
     return () => {
       document.title = "Holland Hues & Hikes - Discover the Netherlands | Travel Blog";
     };
-  }, [title, description, keywords, ogImage, canonicalUrl]);
+  }, [title, description, keywords, ogImage, canonicalUrl, JSON.stringify(structuredData)]);
 };

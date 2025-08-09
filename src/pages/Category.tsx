@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import Header from "@/components/Header";
 import BlogCard from "@/components/BlogCard";
 import { getPostsByCategory } from "@/data/blogPosts";
+import { useSEO } from "@/hooks/useSEO";
 
 const Category = () => {
   const { category } = useParams<{ category: string }>();
@@ -28,6 +29,21 @@ const Category = () => {
         return '';
     }
   };
+
+  useSEO({
+    title: `${getCategoryTitle(category || '')} | Holland Hues & Hikes`,
+    description: getCategoryDescription(category || ''),
+    keywords: `${category}, Netherlands travel`,
+    canonicalUrl: typeof window !== 'undefined' ? `${window.location.origin}/category/${category}` : undefined,
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"Home","item": typeof window !== 'undefined' ? `${window.location.origin}/` : undefined},
+        {"@type":"ListItem","position":2,"name": getCategoryTitle(category || ''),"item": typeof window !== 'undefined' ? `${window.location.origin}/category/${category}` : undefined}
+      ]
+    }
+  });
 
   return (
     <div className="min-h-screen bg-background">

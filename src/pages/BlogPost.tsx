@@ -5,10 +5,41 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { getPostBySlug } from "@/data/blogPosts";
 import BlogPostContent from "@/components/BlogPostContent";
+import { useSEO } from "@/hooks/useSEO";
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
   const post = slug ? getPostBySlug(slug) : null;
+
+  const origin = typeof window !== 'undefined' ? window.location.origin : '';
+  useSEO({
+    title: post ? `${post.title} | Holland Hues & Hikes` : "Post Not Found | Holland Hues & Hikes",
+    description: post?.excerpt ?? "Discover Netherlands travel tips and guides.",
+    keywords: post ? `${post.category}, Netherlands travel, ${post.title}` : "Netherlands travel, blog",
+    ogImage: post?.image,
+    canonicalUrl: origin + (slug ? `/post/${slug}` : '/blog'),
+    structuredData: post ? [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": post.title,
+        "description": post.excerpt,
+        "image": [post.image],
+        "datePublished": post.date,
+        "author": { "@type": "Person", "name": post.author },
+        "mainEntityOfPage": origin + `/post/${slug}`
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type":"ListItem","position":1,"name":"Home","item": origin + "/"},
+          {"@type":"ListItem","position":2,"name":"Blog","item": origin + "/blog"},
+          {"@type":"ListItem","position":3,"name": post.title, "item": origin + `/post/${slug}`}
+        ]
+      }
+    ] : undefined
+  });
 
   if (!post) {
     return (
@@ -46,6 +77,8 @@ const BlogPost = () => {
             <img
               src={post.image}
               alt={post.title}
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-cover"
             />
           </div>
