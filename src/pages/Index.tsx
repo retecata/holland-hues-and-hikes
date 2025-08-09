@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import BlogCard from "@/components/BlogCard";
-import PinterestDownloads from "@/components/PinterestDownloads";
+
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
@@ -90,8 +90,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Pinterest Downloads Section */}
-      <PinterestDownloads />
     </div>
   );
 };
